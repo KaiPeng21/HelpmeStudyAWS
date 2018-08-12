@@ -1,0 +1,24 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "s3:PutObject",
+                "polly:SynthesizeSpeech",
+                "logs:CreateLogStream",
+                "sns:Publish",
+                "dynamodb:PutItem",
+                "dynamodb:Scan",
+                "dynamodb:Query",
+                "dynamodb:UpdateItem",
+                "logs:CreateLogGroup",
+                "logs:PutLogEvents",
+                "s3:GetBucketLocation",
+                "s3:PutObjectAcl"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
